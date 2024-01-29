@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  border-radius: 0.3125rem;
+  padding: 1.25rem;
+  margin-top: 0.9375rem;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  transition: 0.2s;
+}
+
+.item:hover {
+  box-shadow: 0 0 0.3125rem black;
+  transform: scale(1.03);
+}
+
+.header {
+  flex: 1;
+  padding: 0.3125rem;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.header:focus {
+  outline: none;
+}
+
+.icon {
+  margin-left: 0.625rem;
+  font-size: 1.5625rem;
+  cursor: pointer;
+}
+
+.drag {
+  box-shadow: 0 0 1.25rem black;
+}
